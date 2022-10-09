@@ -18,8 +18,7 @@ function toggleDarkMode() {
     root.style.setProperty("--light-lnb-color", "#222");
     root.style.setProperty("--dark-bg-color", "linear-gradient(180deg,  #afdaec, #8eb1e7)");
     root.style.setProperty("--dark-btn-color", "#5c9cd9");
-    body.style.background = "url('https://source.unsplash.com/featured/?sunset') center no-repeat"
-    body.style.backgroundSize = "cover";
+    body.style.backgroundColor = "#000";
     localStorage.setItem("mode", "dark");
 }
 
@@ -32,8 +31,7 @@ function toggleLightMode() {
     root.style.setProperty("--light-lnb-color", "#cde9f5");
     root.style.setProperty("--dark-bg-color", "linear-gradient(180deg, #000, #111)");
     root.style.setProperty("--dark-btn-color", "#222");
-    body.style.background = "url('https://source.unsplash.com/featured/?blue-sky') center no-repeat";
-    body.style.backgroundSize = "cover";
+    body.style.backgroundColor = "#f3f7f9";
     localStorage.setItem("mode", "light");
 }
 
